@@ -141,13 +141,13 @@ export default function ProjectsPage() {
   return (
     <div className="flex flex-col gap-12">
       <section>
-        <h1 className="text-3xl font-bold mb-6">Personal Projects</h1>
-        <ProjectGrid projects={personalProjects} />
+        <h1 className="text-3xl font-bold mb-6">Professional Projects</h1>
+        <ProjectGrid projects={professionalProjects} />
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold mb-6">Professional Projects</h2>
-        <ProjectGrid projects={professionalProjects} />
+        <h2 className="text-3xl font-bold mb-6">Personal Projects</h2>
+        <ProjectGrid projects={personalProjects} />
       </section>
     </div>
   )
